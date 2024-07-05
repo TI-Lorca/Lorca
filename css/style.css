@@ -101,7 +101,7 @@
 
   .carousel-item img {
     width: 100%;
-            height: 80%;
+            height: 700px;
     filter: brightness(50%); /* Ajusta el porcentaje según el nivel de oscurecimiento que desees */
     transition: filter 0.5s ease-in-out;
 }
