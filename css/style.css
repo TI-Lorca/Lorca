@@ -111,9 +111,12 @@
     margin-right:  74px !important;
 }
 
-df-messenger .df-messenger-icon {
-  background-color: #fff !important; /* Cambia este valor por el color que desees */
+
+button#widgetIcon {
+  background: white !important;
 }
+
+
 
 
  
