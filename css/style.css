@@ -7,16 +7,104 @@
     font-style: normal;
   }
 
-  .body {
-    font-family: "Montserrat", sans-serif;
+  .fredoka-2 {
+    font-family: "Fredoka", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .fredoka-slider {
+    font-family: "Fredoka", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 54px;
+  }
+
+  .fredoka-h3 {
+    font-family: "Fredoka", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 32px;
+  }
+  *{
+    font-family: "Lato", sans-serif ;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
   }
 
+.p {
+  font-family: "Lato", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 
-
-
+  .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
 
   @media (min-width: 768px) {
@@ -95,6 +183,12 @@
 
   .nav-item {
 
+    font-family: "Fredoka", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     text-transform: uppercase;
   }
 
@@ -115,6 +209,7 @@
 button#widgetIcon {
   background: white !important;
 }
+
 
 
 
