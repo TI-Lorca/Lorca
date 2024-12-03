@@ -8,15 +8,15 @@
     <link rel="icon" sizes="16x16" href="img/favicon.ico">
     <title>Escuela Garcia Lorca</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+  
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link href="./css/carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -89,10 +89,10 @@
               La Escuela
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Nuestra Historia</a></li>
+              <li><a class="dropdown-item" href="#historia">Nuestra Historia</a></li>
               
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Equipo</a></li>
+              <li><a class="dropdown-item" href="#equipo">Nuestro Equipo</a></li>
             </ul>
           </li>
    
@@ -100,25 +100,35 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 Orientaciones            </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Bachiller en Economía y Administración</a></li>
+              <li><a class="dropdown-item" href="#orientaciones">Bachiller en Economía y Administración</a></li>
               
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Bachiller en Ciencias Sociales y Humanidades</a></li>
+              <li><a class="dropdown-item" href="#orientaciones">Bachiller en Ciencias Sociales y Humanidades</a></li>
 
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Bachiller en Energía y Sustentabilidad</a></li>
+              <li><a class="dropdown-item" href="#orientaciones">Bachiller en Energía y Sustentabilidad</a></li>
             </ul>
           </li>
 
           <li class="nav-item px-4">
-            <a class="nav-link active" aria-current="page" href="#">Noticias</a>
+            <a class="nav-link active" aria-current="page" href="#proyectos">Proyectos</a>
           </li>
-          <li class="nav-item px-4">
-            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Información            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+              
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Becas</a></li>
+
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Centro de Estudiantes</a></li>
+            </ul>
           </li>
 
           <li class="nav-item px-4">
-            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
           </li>
 
         </ul>
@@ -143,7 +153,7 @@ Orientaciones            </a>
           <div class="carousel-caption text-start">
             <h1 class="fredoka-slider text-white ">Bienvenido a la Escuela Federico García Lorca</h1>
             <h3 class="fredoka-h3 text-white  ">Escuela de Educación Media 1 de 14</h3>
-            <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Contactános</a></p>
+            <p><a class="btn btn-lg btn-primary fredoka-2" href="#contacto">Contactános</a></p>
           </div>
         </div>
       </div>
@@ -153,7 +163,7 @@ Orientaciones            </a>
           <div class="carousel-caption">
             <h1 class="fredoka-slider text-white  ">Bienvenido a la Escuela Federico García Lorca</h1>
             <h3 class="fredoka-h3 text-white  ">Escuela de Educación Media 1 de 14</h3>
-            <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Contactános</a></p>
+            <p><a class="btn btn-lg btn-primary fredoka-2" href="#contacto">Contactános</a></p>
           </div>
         </div>
       </div>
@@ -162,7 +172,7 @@ Orientaciones            </a>
           <div class="carousel-caption text-end">
             <h1 class="fredoka-slider text-white ">Bienvenido a la Escuela Federico García Lorca</h1>
             <h3 class="fredoka-h3 text-white  ">Escuela de Educación Media 1 de 14</h3>
-            <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Contactános</a></p>
+            <p><a class="btn btn-lg btn-primary fredoka-2" href="#contacto">Contactános</a></p>
           </div>
         </div>
       </div>
@@ -178,39 +188,132 @@ Orientaciones            </a>
   </div>
 
 
+  <section id ="historia" class="p-5 bg-light">
+    <div class="container">
+      <!-- Título -->
+      <div class="text-center mb-4 p-5">
+        <h2 class=" fredoka-slider ">Nuestra Historia</h2>
+        <p class="text-muted">Colegio Federico García Lorca, Ciudad de Buenos Aires</p>
+      </div>
+
+      <!-- Contenido en dos columnas -->
+      <div class="row align-items-center">
+        <!-- Imagen -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://via.placeholder.com/600x400" alt="Historia del colegio Federico García Lorca" class="img-fluid rounded">
+        </div>
+        <!-- Texto -->
+        <div class="col-md-6">
+          <h3 class="fw-bold">Una tradición educativa en Buenos Aires</h3>
+          <p class="text-muted">
+            El Colegio Federico García Lorca, fundado en el corazón de la Ciudad de Buenos Aires, ha sido desde sus inicios un símbolo de excelencia académica y compromiso con la educación integral de los jóvenes.
+          </p>
+          <p class="text-muted">
+            Inspirado por los valores del célebre poeta español Federico García Lorca, nuestro colegio fomenta el desarrollo creativo, crítico y humano en cada uno de sus estudiantes, promoviendo una educación basada en la diversidad y el respeto.
+          </p>
+          <p class="text-muted">
+            Hoy, con más de cuatro décadas de historia, seguimos creciendo y evolucionando para ofrecer una formación que prepare a nuestros estudiantes para los desafíos del siglo XXI, sin olvidar nuestras raíces y nuestra misión educativa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div id="equipo" class="container text-center p-5">
+
+    <h1 class="fredoka-slider p-4">Nuestro Equipo</h1>
+    <div class="row">
+
+      <div class="col">
+        <h1 class="fredoka-h3 p-4">Equipo de Conduccion</h1>
+        <ul class="list-group">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+      <div class="col">
+
+        <h1 class="fredoka-h3 p-4 ">Docentes</h1>
+        <div class="accordion pb-5" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
-
+  <div id="orientaciones" class="container  ">
+    <h1 class="fredoka-slider p-5">Orientaciones</h1>
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h1  >Heading</h1>
+        <i class="fas fa-4x fa-chart-line"></i>
+         <h3  class="fredoka-h2 p-2">Bachiller en Economía y Administración</h3>
         <p class="lato-light">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Mas Información &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h1 >Heading</h1>
+        <i class="fas fa-4x fa-users"></i>
+         <h3 class="fredoka-h2 p-2">Bachiller en Ciencias Sociales y Humanidades</h3>
         <p class="lato-light">Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Mas Información &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h1>Heading</h1>
+        <i class="fas fa-4x fa-leaf big-icon"></i>
+        <h3 class="fredoka-h2 p-2">Bachiller en Energía y Sustentabilidad</h3>
         <p class="lato-light">And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="#">Mas Información &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
 
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
-
+    <hr id="proyectos" class="featurette-divider">
+    <h1 class="fredoka-slider pb-5">Proyectos</h1>
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
@@ -247,9 +350,196 @@ Orientaciones            </a>
 
     <hr class="featurette-divider">
 
+    <div id="equipo" class="container text-center p-5">
+
+      <h1 class="fredoka-slider p-4">Preguntas Frecuentes</h1>
+      <div class="row">
+  
+        <div class="col">
+          <h1 class="fredoka-h3 p-4">Conduccion</h1>
+          <div class="accordion pb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+  
+          <h1 class="fredoka-h3 p-4 ">Docentes</h1>
+          <div class="accordion pb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+  
+          <h1 class="fredoka-h3 p-4 ">Docentes</h1>
+          <div class="accordion pb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
+
+
+  <div id="contacto" class="container p-5">
+    <!-- Enccabezado -->
+    <h2 class="text-center mb-4 fredoka-slider">Contáctanos</h2>
+
+    <!-- Sección de columnas -->
+    <div class="row text-center mb-4 p-5">
+      <!-- Columna WhatsApp -->
+      <div class="col-md-4">
+        <i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+        <p>+54 9 11 1234 5678</p>
+      </div>
+
+      <!-- Columna Correo -->
+      <div class="col-md-4">
+        <i class="fas fa-envelope fa-3x text-primary mb-3"></i>
+        <p>dem_EEM1_DE14@bue.edu.ar /p>
+      </div>
+
+      <!-- Columna Redes Sociales -->
+      <div class="col-md-4">
+        <h5 class="mb-3">Nuestras Redes</h5>
+        <div class="d-flex justify-content-center">
+          <div class="text-center mx-2">
+            <i class="fab fa-instagram fa-2x text-danger"></i>
+            <p>Instagram 1</p>
+          </div>
+          <div class="text-center mx-2">
+            <i class="fab fa-instagram fa-2x text-danger"></i>
+            <p>Instagram 2</p>
+          </div>
+          <div class="text-center mx-2">
+            <i class="fab fa-instagram fa-2x text-danger"></i>
+            <p>Instagram 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa de Google -->
+    <div class="row mb-4 p-5">
+      <div class="col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.390167211856!2d-58.47885862426014!3d-34.59429417295769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb61a81c8a3eb%3A0x671cf9939fa5808c!2sEscuela%20de%20Educaci%C3%B3n%20Media%20N%C2%BA1%20D.E.%2014%20%22Federico%20Garc%C3%ADa%20Lorca%E2%80%9D!5e0!3m2!1ses-419!2sar!4v1733225208341!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    <!-- Dirección debajo del mapa -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="fw-bold">Dirección: Av. Chorroarín 305, C1427 Cdad. Autónoma de Buenos Aires</p>
+      </div>
+    </div>
+  </div>
+
 
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <df-messenger
@@ -269,9 +559,7 @@ Orientaciones            </a>
   </footer>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>

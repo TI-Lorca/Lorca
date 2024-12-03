@@ -18,7 +18,7 @@
   .fredoka-slider {
     font-family: "Fredoka", sans-serif !important;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 54px;
@@ -32,6 +32,20 @@
     font-variation-settings: "wdth" 100;
     font-size: 32px;
   }
+
+
+
+  .fredoka-h2 {
+    font-family: "Fredoka", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 24px;
+  }
+
+
+
   *{
     font-family: "Lato", sans-serif ;
     font-optical-sizing: auto;
