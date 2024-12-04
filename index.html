@@ -604,131 +604,178 @@ Información            </a>
       <h1 class="fredoka-slider p-4">Preguntas Frecuentes</h1>
       <div class="row">
   
-        <div class="col">
-          <h1 class="fredoka-h3 p-4">Conduccion</h1>
-          <div class="accordion pb-5" id="accordionExample">
+        <div class="col-6">
+          
+          <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
-              <h2 class="accordion-header">
+              <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
+                  Horarios de cada turno
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Los horarios de cada turno varían según el día y el nivel. Puedes consultar el calendario en la página web del colegio.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Dónde se hace educación física?
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  La educación física se realiza en el gimnasio de la escuela o en el parque, dependiendo del clima.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Los chicos pueden retirarse solos?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Depende de la autorización de los padres. Si está autorizada, pueden retirarse solos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ¿Cuándo se hace el registro de firmas?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  El registro de firmas se realiza al inicio de cada turno y al final de la jornada.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  El pago de la coope (¿Dónde, Cuándo?)
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  El pago de la cooperadora se puede hacer en la secretaría del colegio durante los días lunes y miércoles.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  ¿Apto físico para educación física?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Sí, es obligatorio entregar un apto físico firmado por un médico antes de comenzar las clases de educación física.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  ¿Cómo me inscribo?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Puedes inscribirte a través de la página web del Gobierno de la Ciudad de Buenos Aires (GCBA).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  ¿Cómo es el régimen de asistencia?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  El régimen de asistencia es obligatorio. Los estudiantes deben justificar cualquier falta con una nota de los padres o un médico en caso de enfermedad.
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="col-6">
+          <div class="accordion" id="faqAccordionTwo">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOneTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneTwo" aria-expanded="true" aria-controls="collapseOneTwo">
+                  ¿Dónde se realizan las actividades extracurriculares?
+                </button>
+              </h2>
+              <div id="collapseOneTwo" class="accordion-collapse collapse show" aria-labelledby="headingOneTwo" data-bs-parent="#faqAccordionTwo">
+                <div class="accordion-body">
+                  Las actividades extracurriculares se realizan en distintos espacios del colegio, como el gimnasio, el auditorio o los patios, según el tipo de actividad.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwoTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoTwo" aria-expanded="false" aria-controls="collapseTwoTwo">
+                  ¿Cómo se gestionan las emergencias médicas durante las clases?
+                </button>
+              </h2>
+              <div id="collapseTwoTwo" class="accordion-collapse collapse" aria-labelledby="headingTwoTwo" data-bs-parent="#faqAccordionTwo">
+                <div class="accordion-body">
+                  En caso de una emergencia médica, contamos con personal capacitado para brindar primeros auxilios y, si es necesario, contactar a los servicios de emergencia inmediatamente.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThreeTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeTwo" aria-expanded="false" aria-controls="collapseThreeTwo">
+                  ¿Qué sucede si mi hijo se siente mal en clase?
+                </button>
+              </h2>
+              <div id="collapseThreeTwo" class="accordion-collapse collapse" aria-labelledby="headingThreeTwo" data-bs-parent="#faqAccordionTwo">
+                <div class="accordion-body">
+                  Si un estudiante se siente mal, el personal docente se encargará de avisar a los padres y, en caso de ser necesario, se le brindarán los primeros auxilios.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFourTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourTwo" aria-expanded="false" aria-controls="collapseFourTwo">
+                  ¿Qué debo hacer si mi hijo pierde una clase?
+                </button>
+              </h2>
+              <div id="collapseFourTwo" class="accordion-collapse collapse" aria-labelledby="headingFourTwo" data-bs-parent="#faqAccordionTwo">
+                <div class="accordion-body">
+                  Si un estudiante pierde una clase, debe ponerse en contacto con el profesor para recuperar la clase en un horario pactado.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFiveTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveTwo" aria-expanded="false" aria-controls="collapseFiveTwo">
+                  ¿Qué hacer si necesito un certificado de asistencia?
+                </button>
+              </h2>
+              <div id="collapseFiveTwo" class="accordion-collapse collapse" aria-labelledby="headingFiveTwo" data-bs-parent="#faqAccordionTwo">
+                <div class="accordion-body">
+                  Puedes solicitar un certificado de asistencia en la secretaría del colegio, donde te indicarán el procedimiento.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-  
-          <h1 class="fredoka-h3 p-4 ">Docentes</h1>
-          <div class="accordion pb-5" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-  
-          <h1 class="fredoka-h3 p-4 ">Docentes</h1>
-          <div class="accordion pb-5" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
+      </div>
+
+      
     </div>
 
     <!-- /END THE FEATURETTES -->
@@ -746,14 +793,16 @@ Información            </a>
     <div class="row text-center mb-4 p-5">
       <!-- Columna WhatsApp -->
       <div class="col-md-4">
-        <i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+        <a href="https://wa.me/+5491112345678" target="_blank">
+          <i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+        </a>
         <p>+54 9 11 1234 5678</p>
       </div>
 
       <!-- Columna Correo -->
       <div class="col-md-4">
-        <i class="fas fa-envelope fa-3x text-primary mb-3"></i>
-        <p>dem_EEM1_DE14@bue.edu.ar /p>
+        <i class="fas fa-envelope fa-3x text-primary mb-3"> <a href="mailto:dem_EEM1_DE14@bue.edu.ar"></a></i>
+        <p>dem_EEM1_DE14@bue.edu.ar</p>
       </div>
 
       <!-- Columna Redes Sociales -->
