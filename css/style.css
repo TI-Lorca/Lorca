@@ -33,6 +33,12 @@
     font-size: 32px;
   }
 
+  @media (max-width: 576px) {
+    .fredoka-slider {
+        font-size: 36px; /* Ajusta el tamaño según sea necesario */
+    }
+}
+
 
 
   .fredoka-h2 {
