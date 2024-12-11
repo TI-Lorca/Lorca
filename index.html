@@ -121,7 +121,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 Información            </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+              <li><a class="dropdown-item" href="#faq">Preguntas Frecuentes</a></li>
               
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Becas</a></li>
@@ -486,108 +486,172 @@ Información            </a>
   <section id="orientaciones" class="p-5">
     <div class="container text-center">
       <h1 class="fredoka-slider p-5">Orientaciones</h1>
-      <!-- Three columns of text below the carousel -->
+      <!-- Tres columnas de texto -->
       <div class="row">
         <div class="col-12 col-md-4 mb-4">
           <i class="fas fa-4x fa-chart-line"></i>
           <h3 class="fredoka-h2 p-2">Bachiller en Economía y Administración</h3>
-          <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Más Información &raquo;</a></p>
+          <p><a class="btn btn-lg btn-primary fredoka-2" href="#" data-bs-toggle="modal" data-bs-target="#modalEconomia">Más Información &raquo;</a></p>
         </div><!-- /.col -->
         <div class="col-12 col-md-4 mb-4">
           <i class="fas fa-4x fa-users"></i>
           <h3 class="fredoka-h2 p-2">Bachiller en Ciencias Sociales y Humanidades</h3>
-          <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Más Información &raquo;</a></p>
+          <p><a class="btn btn-lg btn-primary fredoka-2" href="#" data-bs-toggle="modal" data-bs-target="#modalSociales">Más Información &raquo;</a></p>
         </div><!-- /.col -->
         <div class="col-12 col-md-4 mb-4">
           <i class="fas fa-4x fa-leaf big-icon"></i>
           <h3 class="fredoka-h2 p-2">Bachiller en Energía y Sustentabilidad</h3>
-          <p><a class="btn btn-lg btn-primary fredoka-2" href="#">Más Información &raquo;</a></p>
+          <p><a class="btn btn-lg btn-primary fredoka-2" href="#" data-bs-toggle="modal" data-bs-target="#modalSustentabilidad">Más Información &raquo;</a></p>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div>
   </section>
+  
+  <!-- Modal Economía -->
+  <div class="modal fade" id="modalEconomia" tabindex="-1" aria-labelledby="modalEconomiaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg"> <!-- Se agregó la clase modal-lg para hacerlo más grande -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalEconomiaLabel">Bachiller en Economía y Administración</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/eco.png" class="img-fluid" alt="Economía y Administración">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Sociales -->
+  <div class="modal fade" id="modalSociales" tabindex="-1" aria-labelledby="modalSocialesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg"> <!-- Se agregó la clase modal-lg para hacerlo más grande -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalSocialesLabel">Bachiller en Ciencias Sociales y Humanidades</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/sociales.png" class="img-fluid" alt="Ciencias Sociales y Humanidades">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Sustentabilidad -->
+  <div class="modal fade" id="modalSustentabilidad" tabindex="-1" aria-labelledby="modalSustentabilidadLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg"> <!-- Se agregó la clase modal-lg para hacerlo más grande -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalSustentabilidadLabel">Bachiller en Energía y Sustentabilidad</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/sustenta.png" class="img-fluid" alt="Energía y Sustentabilidad">
+        </div>
+      </div>
+    </div>
+  </div>
+  
   
     <!-- START THE FEATURETTES -->
 
     <hr id="proyectos" class="featurette-divider">
     <h1 class="fredoka-slider p-5 text-center">Proyectos</h1>
     
-    <section  class="py-5">
+    <section class="py-5">
       <div class="container">
         
-    
         <!-- Proyecto: El Duende del Lorca -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5 order-md-2">
+          <div class="col-12 col-md-7 px-5 order-2 order-md-1">
             <h2 class="featurette-heading fw-normal lh-1">El Duende del Lorca, <span class="text-body-secondary">visita el blog y revive sus historias.</span></h2>
             <p class="lead">Allá por el 2011, tuvimos un periódico llamado <strong>"El duende del Lorca"</strong> y compartíamos historias como estas. <a href="https://elduendelorca.blogspot.com/" target="_blank">Visita el blog aquí</a>.</p>
           </div>
-          <div class="col-md-5 order-md-1">
-           
-            <img src="./img/ElduendeblogM.jpg" alt="">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <img src="./img/ElduendeblogM.jpg" alt="" class="img-fluid">
           </div>
         </div>
-    
+        
         <hr class="featurette-divider">
+    
         <!-- Proyecto: Concurso Literario “Yerma mala nunca muere” -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5">
+          <div class="col-12 col-md-7 px-5">
             <h2 class="featurette-heading fw-normal lh-1">Concurso Literario  <span class="text-body-secondary">“Yerma mala nunca muere”</span></h2>
             <p class="lead">Este año retomamos la importancia de escribir y compartir lo que pensamos. Tuvimos el concurso literario <strong>“Yerma mala nunca muere”</strong>, con la participación de estudiantes de toda la escuela y un jurado compuesto por docentes retirados, miembros de A.L.I.J.A y profesores de la escuela. Varios estudiantes ganaron premios.</p>
           </div>
-          <div class="col-md-5">
-               </div>
+          <div class="col-12 col-md-5">
+            <!-- Aquí puedes poner una imagen o SVG, ajustado según el contenido -->
+          </div>
+        </div>
     
         <hr class="featurette-divider">
+    
         <!-- Proyecto: Trabajo Voluntario -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5 order-md-2">
+          <div class="col-12 col-md-7 px-5 order-2 order-md-1">
             <h2 class="featurette-heading fw-normal lh-1">Trabajo Voluntario <span class="text-body-secondary">Colaboración con organizaciones.</span></h2>
             <p class="lead">Tuvimos trabajo voluntario en conjunto con otras organizaciones. <a href="https://voluntariadoenellorca.blogspot.com/" target="_blank">Visita el blog aquí</a>.</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img src="./img/DSC00061.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">   </div>
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <img src="./img/DSC00061.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+          </div>
         </div>
-        </div>
+        
+        <hr class="featurette-divider">
     
         <!-- Proyecto: Radio Gráfica -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5">
+          <div class="col-12 col-md-7 px-5">
             <h2 class="featurette-heading fw-normal lh-1">Proyecto con Radio Gráfica <span class="text-body-secondary">Conectando con la voz.</span></h2>
             <p class="lead">Desde hace algunos años, en segundo año, en el área de expresión, trabajamos en un proyecto articulado con radio gráfica. Les compartimos el último programa en el que participamos: <a href="(poner link aquí)" target="_blank">Escuchar programa</a>.</p>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Radio Gráfica" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Radio Gráfica</text></svg>
+          <div class="col-12 col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Radio Gráfica" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Radio Gráfica</text>
+            </svg>
           </div>
         </div>
     
         <hr class="featurette-divider">
+    
         <!-- Proyecto: Conmemoración del Día del Patrono -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5 order-md-2">
+          <div class="col-12 col-md-7 px-5 order-2 order-md-1">
             <h2 class="featurette-heading fw-normal lh-1">Conmemoración del Día del Patrono <span class="text-body-secondary">Recordamos con actividades.</span></h2>
             <p class="lead">Como todos los años, conmemoramos el día del patrono el 19 de agosto, con diferentes actividades. <a href="(poner link al blog de la publicidad del 4 de septiembre)" target="_blank">Ver publicidad aquí</a>.</p>
           </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Día del Patrono" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Día del Patrono</text></svg>
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Día del Patrono" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Día del Patrono</text>
+            </svg>
           </div>
         </div>
     
         <hr class="featurette-divider">
+    
         <!-- Proyecto: Muestra Anual de la Escuela -->
         <div class="row featurette px-5 mb-4">
-          <div class="col-md-7 px-5">
+          <div class="col-12 col-md-7 px-5">
             <h2 class="featurette-heading fw-normal lh-1">Muestra Anual de la Escuela <span class="text-body-secondary">Mostramos el trabajo realizado.</span></h2>
             <p class="lead">El 7 de noviembre se realizó la muestra anual de la escuela, donde cada departamento mostró los proyectos realizados durante el año. Pudimos ver trabajos de compost, reciclado y huerta realizados por el ciclo básico. <br> <em>(Poner fotos aquí)</em></p>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Muestra Anual" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Muestra Anual</text></svg>
+          <div class="col-12 col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Muestra Anual" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/>
+              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">Muestra Anual</text>
+            </svg>
           </div>
         </div>
     
-        <!-- Continúa con el resto de proyectos de forma similar -->
       </div>
     </section>
+    
     
     <hr class="featurette-divider">
 
@@ -793,7 +857,7 @@ Información            </a>
         <!-- Columna WhatsApp -->
         <div class="col-12 col-md-4 mb-4">
           <a href="https://wa.me/+5491112345678" target="_blank">
-            <i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+            <i class="fab fa-whatsapp fa-3x text-primary mb-3"></i>
           </a>
           <p>+54 9 11 7124 9919</p>
         </div>
@@ -807,22 +871,16 @@ Información            </a>
         </div>
   
         <!-- Columna Redes Sociales -->
+
         <div class="col-12 col-md-4 mb-4">
-          <h5 class="mb-3">Nuestras Redes</h5>
-          <div class="d-flex justify-content-center">
-            <div class="text-center mx-2">
-              <i class="fab fa-instagram fa-2x text-danger"></i>
-              <p>Instagram 1</p>
-            </div>
-            <div class="text-center mx-2">
-              <i class="fab fa-instagram fa-2x text-danger"></i>
-              <p>Instagram 2</p>
-            </div>
-            <div class="text-center mx-2">
-              <i class="fab fa-instagram fa-2x text-danger"></i>
-              <p>Instagram 3</p>
-            </div>
-          </div>
+          <a href="https://www.instagram.com/eem1de14federicogarcia/" target="_blank">
+            <i class="fab fa-instagram fa-3x  text-primary mb-3"></i>
+            <p>eem1de14federicogarcia</p>
+          </a>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+         
+  
         </div>
       </div>
   
@@ -879,8 +937,7 @@ Información            </a>
           <h5>Información</h5>
           <ul class="list-unstyled">
             <li><a href="#" class="text-light text-decoration-none">Preguntas Frecuentes</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Becas</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Centro de Estudiantes</a></li>
+          
           </ul>
         </div>
         
