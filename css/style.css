@@ -254,6 +254,21 @@ button#widgetIcon {
 
 
 /* Estilo del botón de "Ir arriba" */
+#theme-toggle {
+  z-index: 1050; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+#theme-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 1.5rem; /* Ajusta el tamaño del ícono */
+  cursor: pointer;
+}
+
+#theme-button:hover {
+  opacity: 0.8; /* Efecto de hover */
+}
 
 
 
