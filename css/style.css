@@ -232,6 +232,28 @@ button#widgetIcon {
   background: white !important;
 }
 
+/* Flechas de navegación (iconos de las flechas) */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: none !important; /* Evita que se invierta el color en modo oscuro */
+ 
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  background-color: #333 !important; /* Color más oscuro al pasar el mouse (opcional) */
+}
+
+/* Indicadores del carrusel */
+.carousel-indicators button {
+  background-color: #fff !important; /* Color fijo para los botones de los indicadores */
+}
+
+/* Indicador activo */
+.carousel-indicators .active {
+  background-color: rgb(101, 69, 219) !important; /* Color para el indicador activo (rojo) */
+}
+
+
+
 
 
 
